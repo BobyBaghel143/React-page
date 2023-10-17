@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 640px) and (max-width: 900px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    padding: 0rem 2rem;
+  }
+
+  .search {
+    font-size: 12px;
+  }
+
+  .searchicon {
+    height: 2.2rem;
+    font-size: 1.4rem;
+    padding-left: 12px;
+  }
+
+  .FirstRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+    gap: 2rem;
+  }
+
+  .cart {
+    height: 10rem;
+    width: 25rem;
+    font-size: larger;
+  }
+
+  .icon {
+    height: 7rem;
+    width: 7rem;
+    font-size: 4rem;
+  }
+
+  .earning {
+    font-size: 1.3rem;
+  }
+
+  .secondRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .secondCart {
+    width: 12rem;
+  }
+
+  .column {
+    height: 11rem;
+    width: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .month {
+    font-size: 10px;
+  }
+
+  .customer {
+    /* margin-bottom: 6rem; */
+    width: 25rem;
+  }
+
+  .percent {
+    padding: 10px;
+  }
+
+  .inputbar {
+    width: 8rem;
+  }
+
+  .productsell {
+    font-size: 15px;
+  }
+
+  .productname {
+    font-size: 15px;
+  }
+
+  .abstract {
+    font-size: 11px;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 20rem;
+  }
+}

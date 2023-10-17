@@ -1,7 +1,9 @@
+import '../css/custom.css'
+
 function FooterLine({ title }) {
   return (
     <div className="flex items-center justify-between w-full  bg-gray-200 my-4 ">
-      <div className="flex items-center">
+      <div className="flex items-center abstract ">
         <div className=" w-[5rem] h-[4rem] rounded-2xl text-bold text-2xl flex items-center justify-center bg-blue-200 "> A </div>
         <div className="px-4">
           <div className="text-xl font-semibold"> {title} </div>
@@ -10,7 +12,7 @@ function FooterLine({ title }) {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between bg-gray-200 px-14  w-[42%]">
+      <div className="flex items-center justify-between bg-gray-200 px-14  w-[42%] product ">
         <div>32 in Stack</div>
         <div>$ 45.99</div>
         <div>20</div>
