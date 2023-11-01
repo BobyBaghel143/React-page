@@ -1,7 +1,6 @@
 import {HiChevronDown} from "react-icons/hi"
 import Column from "./Column";
 
-import '../css/custom.css'
 
 
 function SecondCart() {

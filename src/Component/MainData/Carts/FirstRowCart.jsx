@@ -1,4 +1,3 @@
-import '../css/custom.css'
 
 function FirstCart({ title, price, perc, fontColor, background, icon ,aero }) {
   return (

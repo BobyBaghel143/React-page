@@ -1,4 +1,3 @@
-import '../css/custom.css'
 
 function FooterLine({ title }) {
   return (

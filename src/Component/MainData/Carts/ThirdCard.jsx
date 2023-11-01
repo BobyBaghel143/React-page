@@ -1,4 +1,3 @@
-import '../css/custom.css'
 
 function ThirdCart() {
   return (

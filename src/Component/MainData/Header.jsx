@@ -1,6 +1,5 @@
 import { CiSearch } from "react-icons/ci";
 
-import "./css/custom.css";
 
 function Header() {
   return (
